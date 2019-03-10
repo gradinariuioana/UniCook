@@ -1,0 +1,58 @@
+	.descr{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	#grid {
+    display: grid;
+	margin-left: 10%;
+	margin-right: 10%;
+	float: left;
+	}
+	.row {
+		float: left;
+		font-family: Verdana, Helvetica, sans-serif;
+		color: #1C1C1C;
+		}
+	.card {	
+		padding: 3%;
+		float: left;
+		width: 75%;
+		border: 1rem dotted #FBE3E2;
+		margin: 2%;
+		}
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+		}
+	.muf {
+		width: 70%;
+		}
+	.btn {
+    border: none;
+    outline: none;
+    padding: 1% 2%;
+    background-color: #f1f1f1;
+    cursor: pointer;
+	}
+	.btn>img {
+		width: 10%;
+	}
+	.btn:first-child{
+	margin-left: 10%;	
+	}
+	.btn:hover {
+		background-color: #ddd;
+	}
+	@media screen and (min-width:400px) and (max-width:800px){
+	.card {	
+		width: 100%;
+	}
+	.descr{
+		display: none;
+	}
+	#btnContainer {
+		float: left;
+		display: none;
+	}
+	}

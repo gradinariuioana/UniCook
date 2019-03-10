@@ -1,0 +1,43 @@
+	.scris{
+		font-family: Verdana, Helvetica, sans-serif;
+		color: #2E2E2E;
+		padding-left: 5%;
+		padding-right: 5%;
+		}
+	.descr, h2{
+		font-family: Comic-Sans, Helvetica, sans-serif;
+		text-align: center;
+		}
+	.ins, .ing{
+		font-weight: bold;
+		text-decoration: underline;
+		}
+	.imagi {
+		float: left;
+		border-radius: 10%;
+		width: 40%;
+		margin-right: 7%;
+		margin-bottom: 1%;
+		}
+	.ingred {
+		font-family: Verdana, Helvetica, sans-serif;
+		color: #2E2E2E;
+		padding-left: 5%;
+		}
+	.instr {
+		font-family: Verdana, Helvetica, sans-serif;
+		color: #2E2E2E;
+		}
+	.instr>li, .ingred>li{
+			padding: 1%;
+		}
+	@media screen and (min-width:400px) and (max-width:800px){
+		.scris{
+		float:left;
+		width:100%;
+		}
+		.imagi{
+		height: 150px;
+		box-sizing: border-box;
+		width: auto;
+	}}

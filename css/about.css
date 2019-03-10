@@ -1,0 +1,60 @@
+	.scris{
+		font-family: Verdana, Helvetica, sans-serif;
+		color: #2E2E2E;
+        float: left;
+		width: 100%;
+		margin-bottom: 3%;
+		}
+	.feedback {
+		font-family: Verdana, Helvetica, sans-serif;
+		color: #2E2E2E;
+        float: left;
+		width: 100%;
+	}
+	textarea {
+			width: 50%;
+			height: 30%;
+			font-size:1.2em;
+		}
+	input {
+			width: 10%;
+		}
+	.content-footer {
+		text-align: center;
+		text-decoration: none;
+	}
+	.social>li {
+		display: inline-block;
+		margin: 1%;
+		/*transition: font-weight 2s;*/
+		transition: transform 2s;
+		}
+	.social>li>a{
+		text-decoration: none;
+		color: #2E2E2E;
+	}
+	.social>li:hover {
+		/*font-weight: 800;*/
+		transform: rotate(360deg);
+	}
+	footer {
+		font-weight: bold;
+	}
+	.bib {
+		text-decoration: none;
+		color: #2E2E2E;
+		margin-top: 2%;
+		float: left;
+	}
+	
+	@media screen and (min-width:400px) and (max-width:800px){
+		input {
+			width: 30%;
+		}
+	textarea {
+			width: 70%;
+			height: 50%;
+			font-size:1.2em;
+		}
+	}
+		

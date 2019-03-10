@@ -1,0 +1,119 @@
+	html{
+		font-size: 20px;
+      }
+    * {
+		box-sizing: border-box;
+		padding: 0px;
+		margin: 0px;
+		text-indent: 0px;
+      }
+    body {
+		background-color: white;
+		width: 100%;
+		height: 100%;
+		}
+	header {
+		    float: left;
+			width: 100%;
+			margin-bottom: 1%;
+			text-align: center;
+			background-color:#BFD8D2;
+			}
+    .navigare {
+		float: left;
+		width: 100%;   
+		text-align: center;
+		float: left;
+		}
+	.navig {
+		float: left;
+		width: 100%;
+		}
+	.subnavig {
+		z-index:1;
+		}
+    ul.navig>li, ul.navig>li>ul.subnavig>li {
+		list-style-type: none;
+		text-align: center;
+		overflow: hidden;
+		padding: 0px;
+        margin: 0px;
+        display: block;
+        line-height:3rem;
+        height: 3rem;
+        font-weight: bold;
+		}
+	ul.navig>li {
+		border-right: 1px solid #2E2E2E;
+		border-bottom:1px solid #2E2E2E;
+		border-top:1px solid #2E2E2E;
+		float: left;
+        width: 16.6666%;
+		}
+    ul.subnavig>li {
+        width:100%;
+        }
+	ul.navig>li>a, ul.subnavig>li>a {
+		display: block;
+		text-decoration: none;
+        height:100%;
+		color: #DF744A;
+		}
+	ul.navig>li>a:hover, ul.navig>li>ul.subnavig>li>a:hover{
+		background-color: #FBE3E2;
+		}
+	ul.navig>li, ul.subnavig>li{
+		background-color: #BFD8D2;
+		}
+    ul.navig>li>ul.subnavig {
+        position: relative;
+        top:0px;}
+    ul.navig>li>ul.subnavig>li
+        { 
+		border-top: 0.05rem solid #2E2E2E;
+		}
+	ul.navig>li>ul.submenu>li:last-child {
+		border-bottom:0.05rem solid #2E2E2E;
+	}
+	ul.navig>li:hover{
+		overflow:visible; 
+	}
+	h1 {
+		text-align: center;
+		color: #2E2E2E;
+		padding: 1%;
+		float: left;
+		width: 100%;
+		}
+	footer {
+		font-family: Verdana, Helvetica, sans-serif;
+		color: #2E2E2E;
+		bottom: 0px;
+		text-align: center;
+		margin-top: 2%;
+		background-color: #DF744A;
+		float: left;
+		width: 100%;
+		clear: both;
+		padding-bottom: 0.5%;
+		padding-top: 0.5%;
+		}
+	.cont {
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-bottom: 2%;
+		float: left;
+		width: 100%;
+		}
+	@media screen and (min-width:400px) and (max-width:800px){
+		html {
+			font-size: 14px;
+		}
+		ul.navig>li, ul.navig>li>ul.subnavig>li {
+        line-height:2.5rem;
+        height: 2.5rem;
+		}
+		ul.navig>li {
+		float: left;
+        width: 50%;
+	}}
